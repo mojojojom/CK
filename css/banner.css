@@ -20,7 +20,7 @@
 .banner-btn {
     font-size: 16px;
     color: var(--body);
-    outline: 1px solid var(--primary);
+    outline: none;
     background-color: var(--primary);
     border: none;
     border-radius: 50px;
