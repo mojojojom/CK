@@ -42,9 +42,6 @@
 .menu-info {
     color: var(--link);
 }
-.menu-stars .checked{
-    color: gold;
-}
 .menu-all-item {
     height: 320px;
 }

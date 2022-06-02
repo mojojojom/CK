@@ -10,8 +10,13 @@
     font-size: 30px;
     font-weight: bold;
 }
-.reviews-body img{
+.reviews-body {
     height: 100px;
+    width: 100px;
+}
+.reviews-body img{
+    height: 100%;
+    width: 100%;
 }
 .reviews-name {
     color: var(--text);
@@ -20,18 +25,33 @@
 }
 .reviews-text {
     color: var(--link);
+    text-align: justify;
+    text-justify: inter-word;
 }
 .reviews-wrapper .card {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     outline: none;
     border: none;
+    min-height: 354px;
 }
 .reviews-imgs {
     border-radius: 50px;
     object-fit: cover;
 }
-
-
+.checked{
+    color: var(--rating);
+}
+/* OWL CAROUSEL */
+.owl-nav,
+.owl-dots {
+    display: none;
+}
+.owl-item {
+    box-shadow: none;
+}
+.owl-carousel .owl-stage-outer {
+    overflow:hidden;
+}
 
 @media only screen and (max-device-width: 360px) {
     /* styles for mobile browsers smaller than 360px; */

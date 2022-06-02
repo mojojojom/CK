@@ -1,5 +1,6 @@
 #header-navbar{
     transition: background-color 0.5s;
+    transition: all ease-in-out 300ms;
 }
 .navbar-logo {
     font-size: 30px;
@@ -13,6 +14,7 @@
 .header-navscroll{
     background-color: var(--body);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 0;
 }
 .nav-link {
     font-weight: 500;
@@ -22,6 +24,9 @@
     color: var(--primary);
 }
 .nav-link:focus {
+    color: var(--primary);
+}
+.link-active {
     color: var(--primary);
 }
 .navbar-toggler-icon {

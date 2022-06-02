@@ -8,6 +8,7 @@
     --body: #fcfcfc;
     --hr: #d5d5d5;
     --footer-link: #eaeaea;
+    --rating: gold;
 }
 
 * {
@@ -104,5 +105,3 @@ html {
         background-size: 40rem, 115rem;
     }
 }
-
-
