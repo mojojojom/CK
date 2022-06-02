@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Callee's Kitchen</title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-Hqe3s+yLpqaBbXM6VA0cnj/T56ii5YjNrMT9v+us11Q81L0wzUG0jEMNECtugqNu2Uq5MSttCg0p4KK0kCPVaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> 
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/banner.css">
+        <link rel="stylesheet" href="./css/services.css">
+        <link rel="stylesheet" href="./css/menu.css">
+        <link rel="stylesheet" href="./css/reviews.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="script/script.js"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <div class="navbar navbar-expand-lg navbar-light fixed-top" id="header-navbar">
+
+            <div class="container py-3 d-flex">
+                <a href="#" class="navbar-logo">Callee's Kitchen</a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="justify-content-end collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto header-nav">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link link-active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#reviews">Reviews</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="list-unstyled d-flex m-0">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- BANNER -->
+        <div class="banner-wrapper py-5" id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 h-100 banner-heading-container">
+                        <p class="banner-heading">Get Your <span>Food</span><br>Delivered <span>Hot & Fresh</span></p>
+                        <p class="banner-sub-heading text-center text-sm-center text-md-start text-lg-start">Our objective is to serve you with delicious food in your home through fast and free delivery.</p>
+                        <div class="banner-btn-container text-center text-sm-center text-md-start text-lg-start">
+                            <button class="banner-btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="col-6 h-100"></div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 d-none d-sm-none d-md-flex d-lg-flex">
+                    
+                        <div class="row d-flex mt-5 justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-start w-100 mx-0">
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2 text-center pt-2">
+                                <i class="far fa-clock rounded-circle banner-icons"></i>
+                                <p class="m-0 banner-details">
+                                    9:00AM - 10:00PM
+                                </p>
+                                <p class="m-0 banner-sub-details">
+                                    Working Hours
+                                </p>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2 text-center pt-2">
+                                <i class="fas fa-map-marked-alt rounded-circle banner-icons"></i>
+                                <p class="m-0 banner-details">
+                                    Cabangan, Zambales
+                                </p>
+                                <p class="m-0 banner-sub-details">
+                                    Location
+                                </p>
+                            </div>
+                            <div class="col-6 col-sm-6 col-md-4 col-lg-2 text-center pt-2">
+                                <i class="fas fa-phone-alt rounded-circle banner-icons"></i>
+                                <p class="m-0 banner-details">
+                                    (+63)912-3456-789
+                                </p>
+                                <p class="m-0 banner-sub-details">
+                                    Phone
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SERVICES -->
+        <div class="services-wrapper" id="services">
+            <div class="container">
+                <div class="services-heading-container text-center">
+                    <p class="services-title m-0">SERVICES</p>
+                    <p class="services-heading m-0">How It Works</p>
+                    <p class="services-sub-heading m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur non esse aliquam. Natus quia accusantium repellat, modi, ratione et sequi sed, ipsa enim nisi architecto id quae quam deserunt sit.</p>
+                </div>
+                
+                <div class="row d-flex align-items-center text-center justify-content-around pt-3">
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 h-100 text-center py-3 py-sm-3 py-md-2 py-lg-0 services-images">
+                        <img src="/images/undraw_add_to_cart_vkjp.svg" alt="">
+                        <p class="services-steps-heading mb-0">Pick Order</p>
+                        <p class="services-steps-suub-heading mx-0 mx-sm-2 mx-md-2 mx-lg-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quam ab totam, inventore nostrum consectetur.</p>
+                    </div>
+                    
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 h-100 text-center py-3 py-sm-3 py-md-2 py-lg-0 services-images">
+                        <img src="/images/undraw_Order_confirmed_re_g0if.svg" alt="">
+                        <p class="services-steps-heading mb-0">Confirm Order</p>
+                        <p class="services-steps-suub-heading mx-0 mx-sm-2 mx-md-2 mx-lg-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quam ab totam, inventore nostrum consectetur.</p>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 h-100 text-center py-3 py-sm-3 py-md-2 py-lg-0 services-images">
+                        <img src="/images/undraw_On_the_way_re_swjt.svg" alt="">
+                        <p class="services-steps-heading mb-0">Fast Delivery</p>
+                        <p class="services-steps-suub-heading mx-0 mx-sm-2 mx-md-2 mx-lg-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quam ab totam, inventore nostrum consectetur.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- MENU -->
+        <div class="menu-wrapper" id="menu">
+            <div class="container">
+                <div class="menu-heading-container">
+                    <p class="menu-title m-0">MENU</p>
+                    <p class="menu-heading m-0">Deal Of The Week</p>
+                    <p class="menu-sub-heading m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quam ab totam, inventore nostrum consectetur.</p>
+                </div>
+
+                <div class="row d-flex justify-content-center pt-2 pt-sm-2 pt-md-4 pt-lg-5">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 pt-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="/images/seafoodkarekarerecipe.jpg" class="card-img-top" alt="..." height="300">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <p class="menu-item mb-0">Special Bulalo</p>
+                                    <p class="menu-price mb-0">₱500</p>
+                                </div>
+                                <p class="menu-info mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quam ab totam, inventore nostrum consectetur.</p>
+                                <div class="menu-stars pt-2">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 pt-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="/images/Sizzling-Sisig-640.jpg" class="card-img-top" alt="..." height="300">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <p class="menu-item mb-0">Special Bulalo</p>
+                                    <p class="menu-price mb-0">₱500</p>
+                                </div>
+                                <p class="menu-info mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quam ab totam, inventore nostrum consectetur.</p>
+                                <div class="menu-stars pt-2">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 pt-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="/images/Beef-Bulalo.jpg" class="card-img-top" alt="..." height="300">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <p class="menu-item mb-0">Special Bulalo</p>
+                                    <p class="menu-price mb-0">₱500</p>
+                                </div>
+                                <p class="menu-info mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quam ab totam, inventore nostrum consectetur.</p>
+                                <div class="menu-stars pt-2">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-all-wrapper">
+            <div class="container">
+                <div class="menu-heading-container">
+                    <p class="menu-heading m-0">Explore Our Best Menu</p>
+                    <p class="menu-sub-heading m-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quam ab totam, inventore nostrum consectetur.</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 py-2">
+                        <div class="menu-containers">
+                            <div class="menu-content">
+                                <a href="#" target="_blank">
+                                    <div class="menu-content-overlay"></div>
+                                    <img class="menu-content-image" src="/images/filipino-pork-barbecue-scaled.jpg">
+                                    <div class="menu-content-details menu-fadeIn-top">
+                                        <h3>PRODUCT NAME</h3>
+                                        <p>This is a short description</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 py-2">
+                        <div class="menu-containers">
+                            <div class="menu-content">
+                                <a href="#" target="_blank">
+                                    <div class="menu-content-overlay"></div>
+                                    <img class="menu-content-image" src="/images/15800146055357601953_mq.jpg">
+                                    <div class="menu-content-details menu-fadeIn-top">
+                                        <h3>PRODUCT NAME</h3>
+                                        <p>This is a short description</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 py-2">
+                        <div class="menu-containers">
+                            <div class="menu-content">
+                                <a href="#" target="_blank">
+                                    <div class="menu-content-overlay"></div>
+                                    <img class="menu-content-image" src="/images/597cb8c968f4893023f7ccdc96999aac_03_Homepage_Recipe_of_the_Day_944_531.jpg">
+                                    <div class="menu-content-details menu-fadeIn-top">
+                                        <h3>PRODUCT NAME</h3>
+                                        <p>This is a short description</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 py-2">
+                        <div class="menu-containers">
+                            <div class="menu-content">
+                                <a href="#" target="_blank">
+                                    <div class="menu-content-overlay"></div>
+                                    <img class="menu-content-image" src="/images/Beef-Bulalo.jpg">
+                                    <div class="menu-content-details menu-fadeIn-top">
+                                        <h3>PRODUCT NAME</h3>
+                                        <p>This is a short description</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 py-2">
+                        <div class="menu-containers">
+                            <div class="menu-content">
+                                <a href="#" target="_blank">
+                                    <div class="menu-content-overlay"></div>
+                                    <img class="menu-content-image" src="/images/inihaw-na-liempo-4-1-500x500.jpg">
+                                    <div class="menu-content-details menu-fadeIn-top">
+                                        <h3>PRODUCT NAME</h3>
+                                        <p>This is a short description</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 py-2">
+                        <div class="menu-containers">
+                            <div class="menu-content">
+                                <a href="#" target="_blank">
+                                    <div class="menu-content-overlay"></div>
+                                    <img class="menu-content-image" src="/images/pork sinigang na baboy.jpg">
+                                    <div class="menu-content-details menu-fadeIn-top">
+                                        <h3>PRODUCT NAME</h3>
+                                        <p>This is a short description</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 py-2">
+                        <div class="menu-containers">
+                            <div class="menu-content">
+                                <a href="#" target="_blank">
+                                    <div class="menu-content-overlay"></div>
+                                    <img class="menu-content-image" src="/images/Sizzling-Sisig-640.jpg">
+                                    <div class="menu-content-details menu-fadeIn-top">
+                                        <h3>PRODUCT NAME</h3>
+                                        <p>This is a short description</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 py-2">
+                        <div class="menu-containers">
+                            <div class="menu-content">
+                                <a href="#" target="_blank">
+                                    <div class="menu-content-overlay"></div>
+                                    <img class="menu-content-image" src="/images/Special-Laing-Wide.jpg">
+                                    <div class="menu-content-details menu-fadeIn-top">
+                                        <h3>PRODUCT NAME</h3>
+                                        <p>This is a short description</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="menu-btn-container text-center pt-2 pt-sm-2 pt-md-3 pt-lg-5">
+                    <button class="menu-btn">View All Menu</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- REVIEWS -->
+        <div class="reviews-wrapper" id="reviews">
+            <div class="container">
+                <div class="reviews-heading-container text-center">
+                    <p class="reviews-title m-0">REVIEWS</p>
+                    <p class="reviews-heading m-0">What Our Costumers Says About Us</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 pt-5">
+                        <div class="card">
+                            <div class="card-body reviews-body d-flex align-items-center row">
+                                <div class="col-12 d-flex justify-content-center pb-2 pb-sm-2 pb-md-0 pb-lg-0">
+                                    <img class="rounded-circle img-fluid me-3" src="/images/julian-wan-WNoLnJo7tS8-unsplash.jpg" alt="">
+                                </div>
+                                <div class="reviews-container col-12">
+                                    <p class="reviews-name mb-1">John Doe</p>
+                                    <p class="reviews-text mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum voluptatem perferendis fuga eius! At eos consectetur, aspernatur voluptates vel temporibus est minus, dignissimos architecto suscipit laudantium laboriosam modi voluptatibus doloribus.</p>
+                                    <div class="menu-stars pt-2 text-center text-sm-center text-md-center text-lg-start">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6 pt-5">
+                        <div class="card">
+                            <div class="card-body reviews-body d-flex align-items-center row">
+                                <div class="col-12 d-flex justify-content-center pb-2 pb-sm-2 pb-md-0 pb-lg-0">
+                                    <img class="rounded-circle img-fluid me-3" src="/images/julian-wan-WNoLnJo7tS8-unsplash.jpg" alt="">
+                                </div>
+                                <div class="reviews-container col-12">
+                                    <p class="reviews-name mb-1">John Doe</p>
+                                    <p class="reviews-text mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum voluptatem perferendis fuga eius! At eos consectetur, aspernatur voluptates vel temporibus est minus, dignissimos architecto suscipit laudantium laboriosam modi voluptatibus doloribus.</p>
+                                    <div class="menu-stars pt-2 text-center text-sm-center text-md-center text-lg-start">
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+            
+        </div>
+        <!-- CONTACT -->
+        <div class="contact-wrapper" id="contact">
+            <div class="container">
+                <div class="contact-heading-container text-center">
+                    <p class="contact-title m-0">ANY INQUERIES?</p>
+                    <p class="contact-heading m-0">Contact Us</p>
+                </div>
+                <div class="row pt-4 d-flex justify-content-between">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 order-2 order-sm-2 order-md-2 order-lg-1 pt-5 pt-sm-5 pt-md-5 pt-lg-0">
+                        <div class="row text-center d-flex align-items-center justify-content-center">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-12">
+                                <i class="fas fa-map-marker-alt contact-info"></i>
+                                <p class="contact-info-title mb-0 pt-2">Address</p>
+                                <p class="contact-info-sub">Cabangan, Zambales</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-12">
+                                <i class="fas fa-phone-alt contact-info"></i>
+                                <p class="contact-info-title mb-0 pt-2">Phone</p>
+                                <p class="contact-info-sub">(+63)912-3456-789</p>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-12">
+                                <i class="fas fa-envelope contact-info"></i>
+                                <p class="contact-info-title mb-0 pt-2">Email</p>
+                                <p class="contact-info-sub">calleeskitchen@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-1 contact-divider-container d-none d-sm-none d-md-none d-lg-flex order-2">
+                        <div class="contact-divider"></div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 order-1 order-sm-1 order-md-1 order-lg-3">
+                        <form action="">
+                            <p class="contact-form-title pb-2 pb-sm-2 pb-md-2 pb-lg-0">Send us a message</p>
+                            <div class="mb-2">
+                                <input type="name" class="form-control form-control-lg" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter your name here">
+                            </div>
+                            <div class="mb-2">
+                                <input type="email" class="form-control form-control-lg" id="exampleInputEmail" placeholder="Enter your email here">
+                            </div>
+                            <div class="mb-2">
+                                <textarea class="form-control form-control-lg" placeholder="Enter your message here" rows="5"></textarea>
+                            </div>
+                            <div class="contact-btn-container text-center text-sm-center text-md-start text-lg-start pt-2">
+                                <button type="button" class="contact-btn">Send Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer-wrapper py-5">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <a href="#" class="footer-logo mb-1">Callee's Kitchen</a>
+                        <p class="footer-about-title mb-0">About Callee's Kitchen</p>
+                        <p class="footer-about">We offer delicious and nutritious foods from our kitchen to your tummy.</p>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                        <p class="footer-links-title mb-2">Quick Links</p>
+                        <div class="footer-links-container">
+                            <div class="footer-links-box">
+                                <a href="#" class="footer-links">Home</a>
+                            </div>
+                            <div class="footer-links-box">
+                                <a href="#" class="footer-links">Services</a>
+                            </div>
+                            <div class="footer-links-box">
+                                <a href="#" class="footer-links">Menu</a>
+                            </div>
+                            <div class="footer-links-box">
+                                <a href="#" class="footer-links">Reviews</a>
+                            </div>
+                            <div class="footer-links-box">
+                                <a href="#" class="footer-links contact">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 text-center text-sm-center text-md-center text-lg-start footer-sm-icons">
+                        <p class="footer-icons-title mb-2">Connect with us!</p>
+                        <div class="footer-icons-container">
+                            <a href="#" class="footer-icons me-2"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="footer-icons mx-2"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="footer-icons mx-2"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrapper d-flex justify-content-center text-center">
+            <p class="copyright"><i class="fas fa-copyright"></i> 2022 | Created by <a href="#">JOMMEL DALISAYMO</a></p>
+        </div>
+    </body>
+</html>

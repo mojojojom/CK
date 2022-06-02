@@ -1,0 +1,214 @@
+.menu-wrapper {
+    padding: 7em 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 100%, rgba(0 0 0 / 60)100%,rgba(255, 255, 255, 0) 100%), url(/images/kitchen-utensils.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 2560px;
+}
+.menu-heading-container {
+    width: 40%;
+}
+.menu-title {
+    color: var(--primary);
+}
+.menu-heading {
+    color: var(--text);
+    font-size: 30px;
+    font-weight: bold;
+}
+.menu-sub-heading {
+    color: var(--link);
+}
+.menu-wrapper .card {
+    border-radius: 50px 10px 50px 10px;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.menu-wrapper .card img {
+    border-radius: 50px 10px 0 0;
+    object-fit: cover;
+}
+.menu-item {
+    color: var(--text);
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu-price {
+    color: var(--link);
+    font-weight: bold;
+}
+.menu-info {
+    color: var(--link);
+}
+.menu-stars .checked{
+    color: gold;
+}
+.menu-all-item {
+    height: 320px;
+}
+.menu-all-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 300ms;
+    cursor: pointer;
+}
+.menu-all-item img:hover {
+    transform: scale(1.05);
+}
+.menu-btn {
+    font-size: 16px;
+    color: var(--body);
+    outline: 1px solid var(--primary);
+    background-color: var(--primary);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 30px;
+    transition: all ease-in-out 300ms;
+}
+.menu-btn:hover {
+    background-color: var(--primary-alt);
+}
+
+.menu-content {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 306px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.menu-content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.menu-content:hover .menu-content-overlay{
+    opacity: 1;
+}
+
+.menu-content-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.menu-content:hover .menu-content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.menu-content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.menu-content-details p{
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.menu-fadeIn-top{
+    top: 20%;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    /* styles for browsers larger than 1200px; */
+}
+
+@media only screen and (min-width: 960px) {
+    /* styles for browsers larger than 960px; */
+    .menu-wrapper {
+        padding: 3em 0;
+    }
+    .menu-all-wrapper {
+        padding: 3em 0;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    /* styles for mobile browsers smaller than 768px; */
+    .menu-heading-container {
+        width:  100%;
+    }
+    .menu-wrapper {
+        padding: 3em 0;
+    }
+    .menu-all-wrapper {
+        padding: 3em 0;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; */
+    .menu-wrapper {
+        padding: 2em 0;
+    }
+    .menu-all-wrapper {
+        padding: 2em 0;
+    }
+    .menu-heading-container {
+        width: 100%;
+    }
+    .menu-heading {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-device-width: 360px) {
+    /* styles for mobile browsers smaller than 360px; */
+    .menu-wrapper {
+        padding: 2em 0;
+    }
+    .menu-all-wrapper {
+        padding: 2em 0;
+    }
+    .menu-heading-container {
+        width: 100%;
+    }
+    .menu-heading {
+        font-size: 25px;
+    }
+}
+
+
+ 
+
+ 
+

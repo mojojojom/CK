@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --primary: #ff0303;
+    --primary-alt:#ff6565;
+    --text: #0a0a0a;
+    --link: #6a6a6a;
+    --body: #fcfcfc;
+    --hr: #d5d5d5;
+    --footer-link: #eaeaea;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--body);
+    overflow-x: hidden;
+    background-image: url(/images/AICR-NAP-Infographic-small.png), url(/images/bg.svg);
+    background-repeat: no-repeat;
+    background-position-x: right, 40.5rem;
+    background-position-y: 6rem, -14.5rem;
+    background-size: 35rem , 100rem;
+}
+html {
+    scroll-behavior: smooth;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--primary-alt);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+}
+::selection{
+    background: var(--primary-alt);
+}
+
+/* NAVBAR STYLE */
+
+
+
+@media only screen and (max-device-width: 360px) {
+    /* styles for mobile browsers smaller than 360px; */
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: var(--body);
+        overflow-x: hidden;
+        background: none;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; */
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: var(--body);
+        background: none;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    /* styles for mobile browsers smaller than 768px; */
+    body {
+        background-image: url(/images/AICR-NAP-Infographic-small.png), url(/images/bg.svg);
+        background-repeat: no-repeat;
+        background-position-x: 35em, 18rem;
+        background-position-y: 12rem, -5.5rem;
+        background-size: 25rem , 80rem;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+     /* styles for browsers larger than 960px; */
+    body {
+        background-image: url(/images/AICR-NAP-Infographic-small.png), url(/images/bg.svg);
+        background-repeat: no-repeat;
+        background-position-x: 38em, 22rem;
+        background-position-y: 12rem, -5.5rem;
+        background-size: 25rem , 80rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+     /* styles for browsers larger than 1200px; */
+    body {
+        background-image: url(/images/AICR-NAP-Infographic-small.png), url(/images/bg.svg);
+        background-repeat: no-repeat;
+        background-position: 56em 8rem, 33rem -16.2rem;
+        background-size: 40rem, 115rem;
+    }
+}
+
+
